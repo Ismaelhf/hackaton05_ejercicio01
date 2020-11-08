@@ -1,0 +1,71 @@
+
+.login{
+    padding: 10px 20% 0px 20%;
+    height: 80vh;
+}
+.loginContainer{
+    font-family: inherit;
+    background-color: #fff; 
+    box-shadow: 0px 0px 3px #999;
+    /* border-radius: 6px 6px 6px 6px; */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;  
+}
+
+
+.form-registro label {
+    color:#ABA9A9;
+   
+}
+.container{
+    border-top:4px solid #0099FE;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.container div{
+    padding-bottom: 10px;
+}
+#btnSubmit{
+    height: 5vh;
+    width: 250px;
+    background:#4392FE;
+    border: 0;
+    color: white;
+    border-radius: 2px 2px 2px 2px;
+    
+}
+
+
+#exchangeRate{
+    border: 0;
+    background: #ffff;
+    text-align: center;
+}
+
+.loginContainer .item input{
+    border: 1px solid #F2F2F2 !important;
+    width: 250px;
+    height: 35px;
+
+}
+.loginContainer .item select{
+    border: 1px solid #F2F2F2 !important;
+    width: 90px;
+    height: 40px;
+}
+
+.change{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+
+.change2{
+    text-align: start;
+}
+.item svg{
+    padding: 23px;
+}
